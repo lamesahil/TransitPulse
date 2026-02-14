@@ -63,7 +63,7 @@ if menu_choice == "Home":
             
     with col2:
         # Image Handling (Looks for p1.png in images folder)
-        image_path = "images/p1.png"
+        image_path = "TransitPulse/images/p1.png"
         if os.path.exists(image_path):
             st.image(image_path, caption="Seamless Connectivity", use_container_width=True)
         else:
@@ -339,4 +339,5 @@ elif menu_choice == "About":
         """)
 
     # 5. Contact Footer
+
     st.success("📫 **Get in Touch:** iamsahilt20@gmail.com | Insta: @lamesahil")
