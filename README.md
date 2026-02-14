@@ -51,14 +51,45 @@ That day, I realized Mumbai needs a **Unified Dashboard**—one app that tells y
 
 ---
 
-## 📂 Project Structure
+## 💻 How to Run Locally
 
-```bash
-TransitPulse/
-├── main.py           # The Application Interface (View & Controller)
-├── data.py           # The Database & Logic Store (Model)
-├── requirements.txt  # Dependencies list
-├── README.md         # Project Documentation
-└── images/           # Static Assets
-    ├── p1.png        # Home Page Hero Image
-    └── p2.jpg        # Developer Profile Picture
+If you want to run this project on your own machine:
+
+1.  **Clone the Repository**
+    ```bash
+    git clone [https://github.com/lamesahil/TransitPulse.git](https://github.com/lamesahil/TransitPulse.git)
+    cd TransitPulse
+    ```
+
+2.  **Install Dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3.  **Run the App**
+    ```bash
+    streamlit run main.py
+    ```
+
+---
+
+## 🔮 Future Roadmap
+
+* **GTFS Integration:** Replace simulation with real-time GTFS Protocol Buffers for live tracking.
+* **IoT Integration:** Use IoT sensors for independent train tracking bypassing API delays.
+* **Crowd Prediction AI:** Machine Learning model to predict rush hours based on historical data.
+
+---
+
+## 👨‍💻 Author
+
+**Sahil Tiwari**
+
+*Full Stack Developer | IT Engineering Student*
+
+* **Connect:** [LinkedIn](https://www.linkedin.com/in/sahil-tiwari-33715433b/) | [GitHub](https://github.com/lamesahil)
+* **Email:** iamsahil20@gmail.com
+
+---
+
+*Built with ❤️ for Mumbai Commuters.*
