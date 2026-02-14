@@ -273,7 +273,7 @@ elif menu_choice == "About":
     col1, col2 = st.columns([1, 2])
     with col1:
         # TERA PHOTO LOGIC (p2.jpg)
-        image_path = "images/p2.jpg"
+        image_path = "TransitPulse/images/p2.jpg"
         
         if os.path.exists(image_path):
             # Photo thoda bada aur center mein achha lagega
@@ -341,3 +341,4 @@ elif menu_choice == "About":
     # 5. Contact Footer
 
     st.success("📫 **Get in Touch:** iamsahilt20@gmail.com | Insta: @lamesahil")
+
